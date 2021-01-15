@@ -1,17 +1,26 @@
 neofetch
-export VISUAL=nano
-export EDITOR=/usr/bin/nano
+export VISUAL=gedit
+export EDITOR=/usr/bin/gedit
 
 
 
 #alias
-alias fucking="sudo"
-alias ls="ls -a --color=auto"
+alias c="clear"
+alias s="sudo !!"
+alias ls="ls --color=auto"
+alias ll="ls -la --color=auto"
+alias la="ls -a --color=auto"
+alias rm="rm -I --preserve-root"
 alias pm="sudo pacman"
-alias sync=" rclone sync -i /home/matteo/3AHWII/ drive:3AHWII"
 alias cd..="cd .."
-alias s!!="sudo !!"
+alias nano="nano -c"
+alias calc="bc -l"
+alias root="sudo -i"
 alias mkdir="mkdir -vp"
+alias mount "mount | column -t"
+alias ping="ping -c 5 -i 0.2"
+alias fucking="sudo"
 alias reboot="sudo reboot now"
 alias shutdown="shutdown now"
-alias nano="nano -c"
+alias update="yay -syu"
+
